@@ -1,0 +1,6 @@
+name: Integración Continua (CI)
+
+# Este workflow se ejecutará cada vez que hagas un push a la rama main
+on:
+  push:
+    branches: [ main ]
