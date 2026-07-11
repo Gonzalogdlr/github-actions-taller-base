@@ -5,7 +5,7 @@ describe("Función sumar", () => {
   // PRUEBA QUE DEBE PASAR
   test("debe sumar correctamente dos números positivos", () => {
     // 5 + 3 = 8
-    expect(sumar(5, 3)).toBe(8);
+    expect(sumar(5, 3)).toBe(20);
   });
 
   // PRUEBA QUE PUEDE FALLAR INICIALMENTE (para demostrar el fallo del CI)
